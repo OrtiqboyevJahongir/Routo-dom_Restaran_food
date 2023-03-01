@@ -1,0 +1,29 @@
+.smart-bg{
+  background-color: #161C27 !important;
+  
+}
+
+.main-cards{
+  min-height: calc(100vh - 64px - 50px);
+}
+
+.card-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(250px , 1fr));
+  gap: 20px;
+}
+.container{
+  max-width: 1240px;
+}
+
+/* #1C2331 */
+
+.none{
+  height: 0px;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+}
+
+.is-none{
+  transition: all 1s ease-in-out;
+}
